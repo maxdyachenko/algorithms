@@ -9,6 +9,9 @@ const NavBar = () => (
       <li>
         <Link to="/">Home</Link>
       </li>
+      <li>
+        <Link to="/frequency-counter">Frequency Counter</Link>
+      </li>
     </ul>
   </nav>
 );
