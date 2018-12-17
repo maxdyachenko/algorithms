@@ -12,6 +12,18 @@ const NavBar = () => (
       <li>
         <Link to="/frequency-counter">Frequency Counter</Link>
       </li>
+      <li>
+        <Link to="/multiple-pointers">Multiple Pointers</Link>
+      </li>
+      <li>
+        <Link to="/sliding-window">Sliding Window</Link>
+      </li>
+      <li>
+        <Link to="/divide-and-conquer">Divide And Conquer</Link>
+      </li>
+      <li>
+        <Link to="/recursion">Recursion</Link>
+      </li>
     </ul>
   </nav>
 );

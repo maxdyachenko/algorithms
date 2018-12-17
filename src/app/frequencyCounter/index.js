@@ -1,3 +1,3 @@
-import FrequencyCounterComponent from './FrequencyCounterComponent';
+import FrequencyCounter from './components/FrequencyCounter';
 
-export default FrequencyCounterComponent;
+export default FrequencyCounter;
