@@ -42,6 +42,11 @@ const NavBar = () => (
             Singly Linked List
           </Link>
         </li>
+        <li>
+          <Link to="/data-structures/doubly-linked-list">
+            Doubly Linked List
+          </Link>
+        </li>
       </ul>
     </div>
     <div>

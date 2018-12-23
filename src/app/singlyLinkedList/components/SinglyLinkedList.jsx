@@ -36,7 +36,11 @@ const SinglyLinkedList = () => (
       </li>
       <li>Time must be spent traversing and changing the pointers.</li>
     </ul>
-    <Gist id="b1dd67912ac5b9e9aea9e36185f48612" />
+    <p>
+      Time complexity: Insetion: O(1), Removal: O(1) or O(n), Searching: O(n),
+      Access: O(n)
+    </p>
+    <Gist id="128c33c4f1b4d4d71c5cd82cc99223ff" />
   </div>
 );
 

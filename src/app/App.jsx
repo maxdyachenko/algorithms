@@ -18,6 +18,7 @@ import SortAlgorithms, {
   MergeSort,
 } from './sortAlgorithms';
 import SinglyLinkedlist from './singlyLinkedList';
+import DoublyLinkedlist from './doublyLinkedList';
 
 import styles from './index.module.scss';
 
@@ -58,6 +59,10 @@ const App = () => (
         <Route
           path="/data-structures/singly-linked-list"
           component={SinglyLinkedlist}
+        />
+        <Route
+          path="/data-structures/doubly-linked-list"
+          component={DoublyLinkedlist}
         />
       </div>
     </div>
