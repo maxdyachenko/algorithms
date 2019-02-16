@@ -47,6 +47,21 @@ const NavBar = () => (
             Doubly Linked List
           </Link>
         </li>
+        <li>
+          <Link to="/data-structures/stacks">Stacks</Link>
+        </li>
+        <li>
+          <Link to="/data-structures/queue">Queue</Link>
+        </li>
+        <li>
+          <Link to="/data-structures/trees">Trees</Link>
+        </li>
+        <li>
+          <Link to="/data-structures/heap">Heap</Link>
+        </li>
+        <li>
+          <Link to="/data-structures/hash-table">Hash Table</Link>
+        </li>
       </ul>
     </div>
     <div>

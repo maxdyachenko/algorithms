@@ -19,6 +19,11 @@ import SortAlgorithms, {
 } from './sortAlgorithms';
 import SinglyLinkedlist from './singlyLinkedList';
 import DoublyLinkedlist from './doublyLinkedList';
+import Stack from './stack';
+import Queue from './queue';
+import Trees, {BST} from './trees';
+import Heap from './heap';
+import Hash from './hash';
 
 import styles from './index.module.scss';
 
@@ -64,6 +69,12 @@ const App = () => (
           path="/data-structures/doubly-linked-list"
           component={DoublyLinkedlist}
         />
+        <Route path="/data-structures/stacks" component={Stack} />
+        <Route path="/data-structures/queue" component={Queue} />
+        <Route exact path="/data-structures/trees" component={Trees} />
+        <Route path="/data-structures/trees/bst" component={BST} />
+        <Route path="/data-structures/heap" component={Heap} />
+        <Route path="/data-structures/hash-table" component={Hash} />
       </div>
     </div>
   </Router>
